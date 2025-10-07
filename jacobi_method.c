@@ -28,7 +28,7 @@ int main() {
     do {
         if (i == MAX_ITERATION) break;
         x[i+1] = sqrt(10 - x[i] * y[i]);
-        y[i+1] = sqrt((57 - y[i]) / (3 * x[i+1]));
+        y[i+1] = sqrt((57 - y[i]) / (3 * x[i]));
 
         printf("%d\t %f\t %f\t %f\t %f\n", i, x[i], y[i], deltaX, deltaY);
 
