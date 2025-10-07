@@ -1,5 +1,5 @@
 /*
-  Iterasi Titik Tetap (Seidel) non-linear
+  Iterasi Titik Tetap (Jacobi) non-linear
 */
 
 #include <stdio.h>
